@@ -5,8 +5,8 @@ const address = mongoose.Schema({
     Phone: String,              //Or number(?)
     Instagram: String,
     Web: String,
-    Maps: String                //Link to google maps(?
-
+    Maps: String,                //Link to google maps(?
+    Ratings: [String]
 })
 
 const stores = mongoose.Schema({
