@@ -10,6 +10,10 @@ router.get("/stores", async (req, res) => {
     res.send(stores)
 })
 
+app.get("/", (req, res) => {
+  res.send("Express on Vercel");
+});
+
 /* Add store */
 router.post("/stores", async (req, res) => {
     const store = new Stores({
