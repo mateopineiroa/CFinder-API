@@ -4,7 +4,8 @@ const port = 3000
 const routes = require("./routes")
 
 mongoose
-    .connect("mongodb://localhost:27017/cryptoDB", {useNewUrlParser: true})
+    // .connect("mongodb://localhost:27017/cryptoDB", {useNewUrlParser: true})
+    .connect("mongodb+srv://mateopineiro:099389720@clustermat.klwat7q.mongodb.net/?retryWrites=true&w=majority", {useNewUrlParser: true})
     .then(() => {
         const app = express()
 
