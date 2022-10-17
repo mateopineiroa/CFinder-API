@@ -1,2 +1,2 @@
 # CFinder
-Express and mongo web API
+Express and mongoDB web API
